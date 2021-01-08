@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* --------------- default --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, form, label, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font-size: 100%;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, small {display:block;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+sub, sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+sup { top: -0.5em; }
+sub {bottom: -0.25em; }
+ins {text-decoration: none;}
+p, pre, blockquote, ul, ol, dl { margin: 1em 0;}
+blockquote {margin-left: 40px; margin-right: 40px;}
+ol, ul, dd {margin-left: 40px;}
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: bold; color:#94c800;}
+h1 {font-size: 26px; margin: 0 0 15px;}
+h2 {font-size: 24px; margin: 0.83em 0;}
+h3 {font-size: 22px; margin: 1.0em 0;}
+h4 {font-size: 20px; margin: 1.33em 0;}
+h5 {font-size: 18px; margin: 1.5em 0;}
+h6 {font-size: 16px; margin: 1.67em 0;}
+
+input, select, button, textarea {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+html {overflow-y: scroll;}
+body {background:url(body-bg.gif) center top no-repeat #ffffff; text-align: left; line-height: 1.25; font-size: 14px; font-family:Tahoma, Geneva, sans-serif; color: #3c3c3c;}
+
+a {color:#94c800; text-decoration: underline;}
+a:hover {text-decoration: none;}
+hr {color:#aaa; background: #aaa; height: 1px; border: none;}
+html, body {position:relative; height:100%; min-width:980px;}
+
+.YMaps { color:#000;}
+#printMe {color:#000;}
+
+.menu-default, .menu-default ul, .menu-default li {padding:0; margin:0; list-style:none;}
+.clear-self:after {display:block; content:''; font-size:0; clear:both;}
+
+
+/* wrapper
+-------------------------------*/
+.site-wrap {height:auto !important; height:100%; min-height:100%; margin:0 auto -181px;}
+
+.site-wrap-in {position:relative; width:980px; margin:0 auto;}
+
+	.clear-footer {clear:both; height:181px}
+
+	.cleaner {clear:both; line-height:0; font-size:0;}
+
+/* header
+-------------------------------*/
+.site-header {position:relative; min-height:145px;}
+.site-header p {margin:0;}
+.site-header img {border:none;}
+
+	.phone-top {float:right; margin:33px 24px 10px 0; font:bold 23px/32px Tahoma, Geneva, sans-serif; color:#94c800; background:url(tel.png) left top no-repeat; padding:0 0 15px 60px;}
+	.phone-top span {color:#3c3c3c;}
+	.phone-top a {color: #3c3c3c; text-decoration:none;}
+	.phone-top div {color:#191919; font:10px Tahoma, Geneva, sans-serif; padding:2px 0 0;}
+
+	.site-slogan {float:left; margin:29px 19px 0 0;}
+	.site-slogan2 {position:absolute; right:6px; top:191px;}
+
+	.site-logo {float:left; margin:29px 19px 0 20px; display:block; font-size:0;}
+	
+	.top-wrap {position:relative; height:421px; background:url(top-img.jpg) left top no-repeat;}
+
+	/* top menu
+	-------------------------------*/
+	.menu-top-wrap {position:absolute; right:2px; bottom:19px;}
+			.menu-top li {float:left;}
+				.menu-top li a {display:block; text-decoration:none; padding:0 18px 10px; background:url(st-t.png) center bottom no-repeat; color:#a6d920; font-size:14px; text-transform:uppercase;}
+				.menu-top li a:hover {text-decoration:none; color: #ffffff;}
+
+/* content
+-------------------------------*/
+.site-content-wrap {width: 100%; position: relative;}
+
+	.site-content {width: 100%; float: left;}
+		.site-content-middle {padding:44px 10px 50px 0; min-height: 0; margin:0 0 0 292px;}
+
+	/* leftside
+	-------------------------------*/
+	.site-content-left {width: 239px; padding:0 0 0 15px; float: left; margin-left: -100%; position: relative;}
+
+		/* left menu
+		-------------------------------*/
+
+		.menu-left-wrap {margin:-64px 0 64px 0; padding:9px 0 11px; background:#ff3300; position:relative; border:1px solid #720b09; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; behavior: url(../../../g/pie/pie.htc); -moz-box-shadow: inset 0 1px 0 #ff6944; -webkit-box-shadow: inset 0 1px 0 #ff6944; box-shadow: inset 0 1px 0 #ff6944;}
+				.menu-left li {border-top:1px solid #ff6e4a; padding:0 1px;}
+				.menu-left li:first-child, .menu-left li:hover, .menu-left li:hover + li {border-top-color:transparent;}
+					.menu-left li a {display:block; text-decoration:none; padding:9px 10px 10px 20px; color:#ffffff; font-size:14px;}
+					.menu-left li a:hover {text-decoration:none; color: #3c3c3c; background: #dedcdc; background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dedcdc), to(#c2c2c2)); background: -webkit-linear-gradient(#dedcdc, #c2c2c2); background: -moz-linear-gradient(#dedcdc, #c2c2c2); background: -ms-linear-gradient(#dedcdc, #c2c2c2); background: -o-linear-gradient(#dedcdc, #c2c2c2); background: linear-gradient(#dedcdc, #c2c2c2);   -pie-background: linear-gradient(#dedcdc, #c2c2c2); behavior:url(../../../g/pie/pie.htc); -moz-box-shadow: inset 0 3px 4px rgba(0,0,0,.22); -webkit-box-shadow: inset 0 3px 4px rgba(0,0,0,.22); box-shadow: inset 0 3px 4px rgba(0,0,0,.22);}
+
+
+
+		/* edit block
+		-------------------------------*/
+
+		.edit-block-wrap {overflow:hidden; margin:0 0 40px 0;}
+			.edit-block-title {color:#94c800; font:bold 21px Tahoma, Geneva, sans-serif; padding:0 0 17px 20px; background:url(news.gif) left bottom no-repeat;} 
+			.edit-block-body {color:#3c3c3c; font-size:13px; padding:5px 10px 0 22px;}
+
+
+		/* news
+		-------------------------------*/
+
+		.news-wrap {overflow:hidden; margin:0 0 40px 0; font-size:13px;}
+			.news-name {color:#94c800; margin:0 0 19px; font:bold 21px Tahoma, Geneva, sans-serif; padding:0 0 17px 20px; background:url(news.gif) left bottom no-repeat;} 
+			.news-body {padding:0 21px;}
+				.news-date {color:#adadad; padding:0 0 5px;}
+				.news-title {margin:0;}			
+					.news-title a {color:#94c800;}
+					.news-note {color:#3c3c3c; padding:0 0 19px;}
+					.news-note p {margin:0;}
+
+
+
+		/*informers________________________________________*/
+		.site-informers {text-align:center; color:#000; font-size:14px; margin:0 0 20px;}
+
+
+/* footer
+-------------------------------*/
+.site-footer {position:relative; height:181px; background:url(foot.gif) center bottom no-repeat;}
+.site-footer-in {position:relative; height:181px; width: 980px; margin: 0 auto;}
+.site-footer p {margin:0;}
+
+	.site-copyright {position:absolute; left:37px; top:110px; font-size:11px; color:#3c3c3c;}
+
+	.site-copyright span.copyright {font-size:11px !important;}
+
+	.site-counters {position:absolute; top:92px; right:5px; color:#3c3c3c; font-size:14px; text-align:right; width:230px;}
+
+	.site-name-bottom {position:absolute; left:37px; top:91px; color:#3c3c3c; font-size:13px;}
+
+	.phone-bot {position:absolute; max-width:270px; left:443px; top:71px; color:#3c3c3c; font-size:13px; line-height:16px;}
+	.phone-bot a {color: #3c3c3c; text-decoration:none;}
+	.phone-bot span {font-size: 12px; color: #94c800;}
+	.phone-bot table td {vertical-align:top;}
+	.phone-bot table tr td:first-child {text-align:right; padding:0 5px 0 0;}
+
+	/*bot menu________________________________________*/
+	
+	.menu-bot-wrap {position:relative; margin: 0 0 0 17px; padding:0 6px; -moz-border-radius: 6px / 19px; -webkit-border-radius: 6px / 19px; border-radius: 6px / 19px; border:1px solid #720b09; -moz-box-shadow: inset 0 1px 0 #ff6944; -webkit-box-shadow: inset 0 1px 0 #ff6944; box-shadow: inset 0 1px 0 #ff6944; behavior: url(../../../g/pie/pie.htc); background:#ff3300; text-align:right; font-size:0;}
+			.menu-bot li {display:inline-block; background:url(bm-bor.gif) left center no-repeat; padding:0 16px;}
+			.menu-bot li:first-child {background:none;}
+				.menu-bot li a {display:block; text-decoration:none; color: #ffffff; font:12px/37px Tahoma, Geneva, sans-serif;}
+				.menu-bot li a:hover {text-decoration:underline;}
+
+/* tables
+-------------------------------*/
+table.table0 { border-collapse: collapse;  border-spacing: 0;}
+table.table0 td { padding: 5px; border: none;}
+
+table.table1 { border-collapse: collapse;  border-spacing: 0;}
+table.table1 tr:hover { background: none;}
+table.table1 td { padding: 5px; border: 1px solid #91949a;}
+
+table.table2 { border-collapse: collapse;  border-spacing: 0;}
+table.table2 tr:hover { background: none;}
+table.table2 td { padding: 5px; border: 1px solid #91949a;}
+table.table2 th { padding: 8px 5px; border: 1px solid #91949a; background-color: #ff3300; color: #fff; text-align: left;}
+
+table.gallery { border-spacing: 10px; border-collapse: separate;}
+table.gallery td { background-color: #e9e9e9; text-align: center; padding: 15px;}
